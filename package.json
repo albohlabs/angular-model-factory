@@ -4,6 +4,7 @@
   "authors": [
     "Juri Strumpflohner <juri.strumpflohner@gmail.com>"
   ],
+  "version": "1.0.4",
   "description": "modelFactory makes working with RESTful APIs in AngularJS easy",
   "license": "MIT",
   "devDependencies": {
