@@ -80,16 +80,10 @@ Another backbone model clone.  This one actually requires backbone and lodash.
 
 ## Install
 
-Install via bower:
-
-```
-$ bower install angular-model-factory --save
-```
-
 Install via npm:
 
 ```
-$ npm install angular-model-factory --save
+$ npm install angular-model-factory-cse --save
 ```
 
 Alternatively you can download/clone the repo and link the files in `dist/`. 
