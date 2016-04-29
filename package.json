@@ -1,5 +1,5 @@
 {
-  "name": "angular-model-factory",
+  "name": "angular-model-factory-cse",
   "author": "Austin McDaniel <amcdaniel2@gmail.com>",
   "authors": [
     "Juri Strumpflohner <juri.strumpflohner@gmail.com>"
@@ -36,6 +36,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Swimlane/angular-model-factory.git"
+    "url": "https://github.com/albohlabs/angular-model-factory-cse.git"
   }
 }
