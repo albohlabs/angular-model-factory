@@ -1,6 +1,6 @@
-# modelFactory 
+# modelFactory
 
-[![Build Status](https://travis-ci.org/Swimlane/angular-model-factory.svg?branch=master)](https://travis-ci.org/Swimlane/model-factory) [![npm version](https://badge.fury.io/js/angular-model-factory.svg)](http://badge.fury.io/js/angular-model-factory) [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release) [![Bower version](https://badge.fury.io/bo/angular-model-factory.svg)](http://badge.fury.io/bo/angular-model-factory) [![Codacy Badge](https://www.codacy.com/project/badge/d6659f50bd234f099738358a2a17bf9c)](https://www.codacy.com/public/amcdaniel2/model-factory) [![Join the chat at https://gitter.im/Swimlane/angular-model-factory](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Swimlane/angular-model-factory?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![Dependency Status](https://david-dm.org/Swimlane/angular-model-factory.svg)](https://david-dm.org/Swimlane/angular-model-factory) [![devDependency Status](https://david-dm.org/Swimlane/angular-model-factory/dev-status.svg)](https://david-dm.org/Swimlane/angular-model-factory#info=devDependencies)
+[![Build Status](https://travis-ci.org/albohlabs/angular-model-factory-cse.svg?branch=master)](https://travis-ci.org/albohlabs/angular-model-factory-cse) [![npm version](https://badge.fury.io/js/angular-model-factory-cse.svg)](http://badge.fury.io/js/angular-model-factory-cse) [![Dependency Status](https://david-dm.org/albohlabs/angular-model-factory-cse.svg)](https://david-dm.org/albohlabs/angular-model-factory-cse) [![devDependency Status](https://david-dm.org/albohlabs/angular-model-factory-cse/dev-status.svg)](https://david-dm.org/albohlabs/angular-model-factory-cse#info=devDependencies)
 
 A light-weight model layer that bridges the gap between AngularJS and your RESTful APIs.
 
@@ -69,10 +69,10 @@ Not really a model layer but a data store.  Very very heavy ( 67kb min )
 - [ngActiveResource](https://github.com/FacultyCreative/ngActiveResource)
 Very ruby-ish api.  Requires lodash.  Has validation but thats not needed in angular if you do it right.
 
-- [restangular](https://github.com/mgonto/restangular) 
+- [restangular](https://github.com/mgonto/restangular)
 I don't consider this a model layer; it feels moore like a fancy http layer that returns promises because everyone complains about ngResource not doing it.  It requires underscore.
 
-- [BreezeJS](http://www.breezejs.com/) 
+- [BreezeJS](http://www.breezejs.com/)
 This is a very full featured model/cache/validation etc.  Its framework agnostic, which means it follows its own patterns and not angulars.  Its very heavy, requires server data massaging, and the API looks like Microsoft Entity Framework.
 
 - [ng-backbone](https://github.com/adrianlee44/ng-backbone)
@@ -86,7 +86,7 @@ Install via npm:
 $ npm install angular-model-factory-cse --save
 ```
 
-Alternatively you can download/clone the repo and link the files in `dist/`. 
+Alternatively you can download/clone the repo and link the files in `dist/`.
 
 ### Dependencies
 
