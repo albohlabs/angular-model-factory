@@ -550,7 +550,8 @@ module.provider('$modelFactory', function(){
              * for tracking data of this instance type.
              * https://docs.angularjs.org/api/ng/service/$cacheFactory
              */
-            Model.$cache = $cacheFactory(url);
+            var cacheId = Math.random().toString(36).substr(2);
+            Model.$cache = $cacheFactory(cacheId);
 
             // attach actions
             forEach(options.actions, function(v, k){
